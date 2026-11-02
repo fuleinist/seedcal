@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>seedcal - sowing calendar</title>
+<meta name="description" content="A week-by-week sowing calendar for community gardens. It uses site frost dates and soil temperature.">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#143526">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="./">
+    <img src="logo.png" alt="" width="38" height="38" onerror="this.src='logo.svg'">
+    <span>seedcal</span>
+  </a>
+  <nav>
+    <a href="#plan">Plan</a>
+    <a href="#gaps">Gaps</a>
+    <a href="#method">Method</a>
+    <a href="https://github.com/fuleinist/seedcal">Source</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="kicker">Sowing calendar</p>
+    <h1 id="site-name">Loading the plan</h1>
+    <p class="sub" id="site-sub">The page reads plan.json.</p>
+    <div class="hero-actions">
+      <button class="button primary" id="print" type="button">Print calendar</button>
+      <button class="button" id="csv" type="button">Download CSV</button>
+    </div>
+  </section>
+
+  <section id="warnings" class="warnings" hidden></section>
+  <section class="stats" id="stats" aria-label="Season summary"></section>
+
+  <section class="panel" id="plan">
+    <div class="panel-head">
+      <div>
+        <h2>Season timeline</h2>
+        <p class="hint">Each row is a crop. Bars show the harvest window. Triangles mark sowing weeks. Diamonds mark transplant weeks.</p>
+      </div>
+      <div class="legend" aria-hidden="true">
+        <span><i class="key sow"></i>Sow</span>
+        <span><i class="key transplant"></i>Transplant</span>
+        <span><i class="key harvest"></i>Harvest</span>
+      </div>
+    </div>
+
+    <div class="crop-filter" id="crop-filter"></div>
+
+    <div class="timeline-wrap">
+      <div class="timeline" id="timeline">
+        <p class="empty">Loading the season.</p>
+      </div>
+    </div>
+    <p class="hint" id="timeline-note"></p>
+  </section>
+
+  <section class="panel" id="this-week">
+    <div class="panel-head">
+      <div>
+        <h2>This week</h2>
+        <p class="hint" id="week-range"></p>
+      </div>
+    </div>
+    <div class="week-grid" id="week-actions"></div>
+  </section>
+
+  <section class="panel" id="gaps">
+    <div class="panel-head">
+      <div>
+        <h2>Hungry gaps</h2>
+        <p class="hint">A gap is a week between the first and last harvest with nothing to pick.</p>
+      </div>
+    </div>
+    <div id="gap-list"></div>
+  </section>
+
+  <section class="panel" id="method">
+    <h2>Method and data</h2>
+    <div class="method-grid">
+      <div>
+        <h3>Frost dates</h3>
+        <p>The planner finds the longest spell of days above 0 °C in each year. The day before the spell is the last spring frost. The day after is the first autumn frost. The safe date is the 90th percentile across ten years.</p>
+        <h3>Soil temperature</h3>
+        <p>A first-order lag model follows daily mean air temperature. The model is calibrated against observed soil at 6 cm. Recent values are observed. Future values are estimates.</p>
+      </div>
+      <div>
+        <h3>Limits</h3>
+        <ul>
+          <li>Frost varies across a suburb. A cold hollow can frost when the grid cell does not.</li>
+          <li>Soil temperature is an estimate, not a probe reading.</li>
+          <li>Crop windows are indicative. Local varieties and microclimates differ.</li>
+        </ul>
+        <h3>Sources</h3>
+        <ul>
+          <li><a href="https://open-meteo.com/">Open-Meteo</a> archive, forecast and geocoding APIs. Free, no key.</li>
+          <li>Frost threshold: 0 °C. Change it in <code>src/cli.ts</code>.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>seedcal</span>
+  <span>Open data. Open source. MIT license.</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

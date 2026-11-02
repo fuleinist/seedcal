@@ -1,0 +1,4316 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-02T19:09:54.149Z",
+  "site": {
+    "name": "Canberra City Farm",
+    "latitude": -35.32513,
+    "longitude": 149.156,
+    "elevation": 570,
+    "timezone": "Australia/Sydney"
+  },
+  "climate": {
+    "archiveStart": "2016-01-01",
+    "archiveEnd": "2026-11-01",
+    "frostFree": false,
+    "frost": {
+      "thresholdC": 0,
+      "years": 10,
+      "yearsWithFrost": 10,
+      "lastFrost": {
+        "medianDoy": 265,
+        "p10Doy": 251.3,
+        "p90Doy": 271,
+        "medianLabel": "22 Sept",
+        "safeLabel": "28 Sept"
+      },
+      "firstFrost": {
+        "medianDoy": 145,
+        "p10Doy": 128.7,
+        "p90Doy": 158.5,
+        "medianLabel": "25 May",
+        "safeLabel": "8 May"
+      },
+      "frostFreeDaysMedian": 253,
+      "events": [
+        {
+          "year": 2016,
+          "last": {
+            "year": 2016,
+            "doy": 271,
+            "date": "2016-09-28"
+          },
+          "first": {
+            "year": 2017,
+            "doy": 150,
+            "date": "2017-05-30"
+          }
+        },
+        {
+          "year": 2017,
+          "last": {
+            "year": 2017,
+            "doy": 263,
+            "date": "2017-09-20"
+          },
+          "first": {
+            "year": 2018,
+            "doy": 172,
+            "date": "2018-06-21"
+          }
+        },
+        {
+          "year": 2018,
+          "last": {
+            "year": 2018,
+            "doy": 270,
+            "date": "2018-09-27"
+          },
+          "first": {
+            "year": 2019,
+            "doy": 157,
+            "date": "2019-06-06"
+          }
+        },
+        {
+          "year": 2019,
+          "last": {
+            "year": 2019,
+            "doy": 267,
+            "date": "2019-09-24"
+          },
+          "first": {
+            "year": 2020,
+            "doy": 131,
+            "date": "2020-05-11"
+          }
+        },
+        {
+          "year": 2020,
+          "last": {
+            "year": 2020,
+            "doy": 271,
+            "date": "2020-09-28"
+          },
+          "first": {
+            "year": 2021,
+            "doy": 136,
+            "date": "2021-05-16"
+          }
+        },
+        {
+          "year": 2021,
+          "last": {
+            "year": 2021,
+            "doy": 264,
+            "date": "2021-09-21"
+          },
+          "first": {
+            "year": 2022,
+            "doy": 154,
+            "date": "2022-06-03"
+          }
+        },
+        {
+          "year": 2022,
+          "last": {
+            "year": 2022,
+            "doy": 236,
+            "date": "2022-08-24"
+          },
+          "first": {
+            "year": 2023,
+            "doy": 139,
+            "date": "2023-05-19"
+          }
+        },
+        {
+          "year": 2023,
+          "last": {
+            "year": 2023,
+            "doy": 253,
+            "date": "2023-09-10"
+          },
+          "first": {
+            "year": 2024,
+            "doy": 140,
+            "date": "2024-05-20"
+          }
+        },
+        {
+          "year": 2024,
+          "last": {
+            "year": 2024,
+            "doy": 259,
+            "date": "2024-09-16"
+          },
+          "first": {
+            "year": 2025,
+            "doy": 150,
+            "date": "2025-05-30"
+          }
+        },
+        {
+          "year": 2025,
+          "last": {
+            "year": 2025,
+            "doy": 266,
+            "date": "2025-09-23"
+          },
+          "first": {
+            "year": 2026,
+            "doy": 108,
+            "date": "2026-04-18"
+          }
+        }
+      ]
+    },
+    "soil": {
+      "latestC": 12.8,
+      "latestDate": "2026-11-08",
+      "biasC": 1.3,
+      "recent": [
+        {
+          "date": "2026-10-19",
+          "value": 15.5
+        },
+        {
+          "date": "2026-10-20",
+          "value": 16
+        },
+        {
+          "date": "2026-10-21",
+          "value": 17.2
+        },
+        {
+          "date": "2026-10-22",
+          "value": 16.6
+        },
+        {
+          "date": "2026-10-23",
+          "value": 18.2
+        },
+        {
+          "date": "2026-10-24",
+          "value": 18.8
+        },
+        {
+          "date": "2026-10-25",
+          "value": 18.3
+        },
+        {
+          "date": "2026-10-26",
+          "value": 16.3
+        },
+        {
+          "date": "2026-10-27",
+          "value": 13.2
+        },
+        {
+          "date": "2026-10-28",
+          "value": 12.1
+        },
+        {
+          "date": "2026-10-29",
+          "value": 14
+        },
+        {
+          "date": "2026-10-30",
+          "value": 16.1
+        },
+        {
+          "date": "2026-10-31",
+          "value": 15.8
+        },
+        {
+          "date": "2026-11-01",
+          "value": 16.5
+        },
+        {
+          "date": "2026-11-02",
+          "value": 15.8
+        },
+        {
+          "date": "2026-11-03",
+          "value": 16.6
+        },
+        {
+          "date": "2026-11-04",
+          "value": 16.2
+        },
+        {
+          "date": "2026-11-05",
+          "value": 15.7
+        },
+        {
+          "date": "2026-11-06",
+          "value": 15.4
+        },
+        {
+          "date": "2026-11-07",
+          "value": 14.2
+        },
+        {
+          "date": "2026-11-08",
+          "value": 12.8
+        }
+      ]
+    }
+  },
+  "settings": {
+    "startDate": "2026-08-15",
+    "weeks": 52,
+    "beds": 4,
+    "selectedCropIds": [
+      "tomato",
+      "lettuce",
+      "carrot",
+      "radish"
+    ],
+    "frostThresholdC": 0
+  },
+  "crops": [
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "family": "Solanaceae",
+      "method": "transplant",
+      "hardiness": "tender",
+      "minSoilC": 15,
+      "spring": {
+        "from": -6,
+        "to": 4
+      },
+      "daysToHarvest": [
+        60,
+        85
+      ],
+      "harvestWeeks": [
+        10,
+        14
+      ],
+      "spacingCm": 60,
+      "gapValue": 3,
+      "notes": "Start indoors. Plant out after the last frost."
+    },
+    {
+      "id": "cherry-tomato",
+      "name": "Cherry tomato",
+      "family": "Solanaceae",
+      "method": "transplant",
+      "hardiness": "tender",
+      "minSoilC": 15,
+      "spring": {
+        "from": -6,
+        "to": 4
+      },
+      "daysToHarvest": [
+        60,
+        80
+      ],
+      "harvestWeeks": [
+        10,
+        14
+      ],
+      "spacingCm": 50,
+      "gapValue": 3,
+      "notes": "Earlier than large tomatoes. Good for small beds."
+    },
+    {
+      "id": "lettuce",
+      "name": "Lettuce",
+      "family": "Asteraceae",
+      "method": "direct",
+      "hardiness": "half-hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -4,
+        "to": 8
+      },
+      "autumn": {
+        "from": -8,
+        "to": -2
+      },
+      "daysToHarvest": [
+        30,
+        55
+      ],
+      "harvestWeeks": [
+        5,
+        8
+      ],
+      "successionWeeks": 2,
+      "spacingCm": 25,
+      "gapValue": 5,
+      "notes": "Sow little and often. Bolts in heat."
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach",
+      "family": "Amaranthaceae",
+      "method": "direct",
+      "hardiness": "hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -6,
+        "to": 4
+      },
+      "autumn": {
+        "from": -8,
+        "to": -2
+      },
+      "daysToHarvest": [
+        40,
+        60
+      ],
+      "harvestWeeks": [
+        6,
+        8
+      ],
+      "successionWeeks": 2,
+      "spacingCm": 15,
+      "gapValue": 5,
+      "notes": "Sweet in cool weather. Pick outer leaves."
+    },
+    {
+      "id": "kale",
+      "name": "Kale",
+      "family": "Brassicaceae",
+      "method": "transplant",
+      "hardiness": "hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -8,
+        "to": 2
+      },
+      "autumn": {
+        "from": -10,
+        "to": -2
+      },
+      "daysToHarvest": [
+        55,
+        75
+      ],
+      "harvestWeeks": [
+        8,
+        12
+      ],
+      "successionWeeks": 4,
+      "spacingCm": 45,
+      "gapValue": 4,
+      "notes": "Stands through frost. Pick young leaves."
+    },
+    {
+      "id": "silverbeet",
+      "name": "Silverbeet",
+      "family": "Amaranthaceae",
+      "method": "direct",
+      "hardiness": "hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -4,
+        "to": 6
+      },
+      "autumn": {
+        "from": -8,
+        "to": -2
+      },
+      "daysToHarvest": [
+        50,
+        70
+      ],
+      "harvestWeeks": [
+        10,
+        14
+      ],
+      "successionWeeks": 4,
+      "spacingCm": 30,
+      "gapValue": 4,
+      "notes": "Reliable through heat and cold."
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "family": "Apiaceae",
+      "method": "direct",
+      "hardiness": "half-hardy",
+      "minSoilC": 7,
+      "spring": {
+        "from": -2,
+        "to": 8
+      },
+      "autumn": {
+        "from": -8,
+        "to": -2
+      },
+      "daysToHarvest": [
+        70,
+        90
+      ],
+      "harvestWeeks": [
+        4,
+        6
+      ],
+      "successionWeeks": 3,
+      "spacingCm": 8,
+      "gapValue": 4,
+      "notes": "Deep loose soil. Keep the bed moist."
+    },
+    {
+      "id": "radish",
+      "name": "Radish",
+      "family": "Brassicaceae",
+      "method": "direct",
+      "hardiness": "hardy",
+      "minSoilC": 4,
+      "spring": {
+        "from": -4,
+        "to": 6
+      },
+      "autumn": {
+        "from": -6,
+        "to": -2
+      },
+      "daysToHarvest": [
+        25,
+        35
+      ],
+      "harvestWeeks": [
+        2,
+        3
+      ],
+      "successionWeeks": 2,
+      "spacingCm": 5,
+      "gapValue": 5,
+      "notes": "Fast gap filler. Sow between slow crops."
+    },
+    {
+      "id": "beetroot",
+      "name": "Beetroot",
+      "family": "Amaranthaceae",
+      "method": "direct",
+      "hardiness": "half-hardy",
+      "minSoilC": 7,
+      "spring": {
+        "from": -2,
+        "to": 8
+      },
+      "autumn": {
+        "from": -8,
+        "to": -2
+      },
+      "daysToHarvest": [
+        55,
+        75
+      ],
+      "harvestWeeks": [
+        4,
+        6
+      ],
+      "successionWeeks": 3,
+      "spacingCm": 10,
+      "gapValue": 4,
+      "notes": "Thin seedlings early. Eat the leaves too."
+    },
+    {
+      "id": "spring-onion",
+      "name": "Spring onion",
+      "family": "Amaryllidaceae",
+      "method": "direct",
+      "hardiness": "hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -4,
+        "to": 8
+      },
+      "autumn": {
+        "from": -8,
+        "to": -2
+      },
+      "daysToHarvest": [
+        60,
+        80
+      ],
+      "harvestWeeks": [
+        8,
+        12
+      ],
+      "successionWeeks": 3,
+      "spacingCm": 8,
+      "gapValue": 4,
+      "notes": "Sow in small blocks through the season."
+    },
+    {
+      "id": "pea",
+      "name": "Pea",
+      "family": "Fabaceae",
+      "method": "direct",
+      "hardiness": "hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -6,
+        "to": 0
+      },
+      "autumn": {
+        "from": -8,
+        "to": -4
+      },
+      "daysToHarvest": [
+        60,
+        80
+      ],
+      "harvestWeeks": [
+        4,
+        6
+      ],
+      "successionWeeks": 2,
+      "spacingCm": 8,
+      "gapValue": 5,
+      "notes": "Fix nitrogen. Pick pods young."
+    },
+    {
+      "id": "snow-pea",
+      "name": "Snow pea",
+      "family": "Fabaceae",
+      "method": "direct",
+      "hardiness": "hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -6,
+        "to": 0
+      },
+      "autumn": {
+        "from": -8,
+        "to": -4
+      },
+      "daysToHarvest": [
+        65,
+        85
+      ],
+      "harvestWeeks": [
+        4,
+        6
+      ],
+      "successionWeeks": 2,
+      "spacingCm": 8,
+      "gapValue": 5,
+      "notes": "Climbing habit. Give a trellis."
+    },
+    {
+      "id": "broad-bean",
+      "name": "Broad bean",
+      "family": "Fabaceae",
+      "method": "direct",
+      "hardiness": "hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -8,
+        "to": -2
+      },
+      "autumn": {
+        "from": -10,
+        "to": -4
+      },
+      "daysToHarvest": [
+        90,
+        120
+      ],
+      "harvestWeeks": [
+        6,
+        8
+      ],
+      "spacingCm": 20,
+      "gapValue": 5,
+      "notes": "Overwinters well. Fills the late-winter gap."
+    },
+    {
+      "id": "zucchini",
+      "name": "Zucchini",
+      "family": "Cucurbitaceae",
+      "method": "transplant",
+      "hardiness": "tender",
+      "minSoilC": 12,
+      "spring": {
+        "from": 2,
+        "to": 8
+      },
+      "daysToHarvest": [
+        50,
+        65
+      ],
+      "harvestWeeks": [
+        8,
+        12
+      ],
+      "spacingCm": 80,
+      "gapValue": 3,
+      "notes": "One or two plants feed a household."
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "family": "Cucurbitaceae",
+      "method": "transplant",
+      "hardiness": "tender",
+      "minSoilC": 15,
+      "spring": {
+        "from": 2,
+        "to": 8
+      },
+      "daysToHarvest": [
+        55,
+        70
+      ],
+      "harvestWeeks": [
+        6,
+        8
+      ],
+      "spacingCm": 40,
+      "gapValue": 2,
+      "notes": "Needs warmth and water. Grow on a frame."
+    },
+    {
+      "id": "pumpkin",
+      "name": "Pumpkin",
+      "family": "Cucurbitaceae",
+      "method": "direct",
+      "hardiness": "tender",
+      "minSoilC": 15,
+      "spring": {
+        "from": 2,
+        "to": 6
+      },
+      "daysToHarvest": [
+        90,
+        120
+      ],
+      "harvestWeeks": [
+        12,
+        16
+      ],
+      "spacingCm": 100,
+      "gapValue": 2,
+      "notes": "Long season. Stores for months."
+    },
+    {
+      "id": "sweetcorn",
+      "name": "Sweetcorn",
+      "family": "Poaceae",
+      "method": "direct",
+      "hardiness": "tender",
+      "minSoilC": 12,
+      "spring": {
+        "from": 2,
+        "to": 8
+      },
+      "daysToHarvest": [
+        80,
+        100
+      ],
+      "harvestWeeks": [
+        4,
+        6
+      ],
+      "successionWeeks": 3,
+      "spacingCm": 30,
+      "gapValue": 3,
+      "notes": "Plant in a block for good pollination."
+    },
+    {
+      "id": "climbing-bean",
+      "name": "Climbing bean",
+      "family": "Fabaceae",
+      "method": "direct",
+      "hardiness": "tender",
+      "minSoilC": 12,
+      "spring": {
+        "from": 2,
+        "to": 8
+      },
+      "daysToHarvest": [
+        55,
+        70
+      ],
+      "harvestWeeks": [
+        6,
+        8
+      ],
+      "successionWeeks": 3,
+      "spacingCm": 15,
+      "gapValue": 4,
+      "notes": "Pick often to keep the crop coming."
+    },
+    {
+      "id": "basil",
+      "name": "Basil",
+      "family": "Lamiaceae",
+      "method": "transplant",
+      "hardiness": "tender",
+      "minSoilC": 15,
+      "spring": {
+        "from": 4,
+        "to": 10
+      },
+      "daysToHarvest": [
+        60,
+        80
+      ],
+      "harvestWeeks": [
+        8,
+        12
+      ],
+      "successionWeeks": 4,
+      "spacingCm": 25,
+      "gapValue": 3,
+      "notes": "Pinch the tips. Avoid cold nights."
+    },
+    {
+      "id": "parsley",
+      "name": "Parsley",
+      "family": "Apiaceae",
+      "method": "direct",
+      "hardiness": "hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -4,
+        "to": 6
+      },
+      "autumn": {
+        "from": -8,
+        "to": -2
+      },
+      "daysToHarvest": [
+        70,
+        90
+      ],
+      "harvestWeeks": [
+        12,
+        20
+      ],
+      "spacingCm": 20,
+      "gapValue": 4,
+      "notes": "Slow to start. Soak seed first."
+    },
+    {
+      "id": "coriander",
+      "name": "Coriander",
+      "family": "Apiaceae",
+      "method": "direct",
+      "hardiness": "half-hardy",
+      "minSoilC": 7,
+      "spring": {
+        "from": -2,
+        "to": 6
+      },
+      "autumn": {
+        "from": -8,
+        "to": -2
+      },
+      "daysToHarvest": [
+        45,
+        60
+      ],
+      "harvestWeeks": [
+        4,
+        6
+      ],
+      "successionWeeks": 3,
+      "spacingCm": 15,
+      "gapValue": 5,
+      "notes": "Sow often. Bolts quickly in heat."
+    },
+    {
+      "id": "dill",
+      "name": "Dill",
+      "family": "Apiaceae",
+      "method": "direct",
+      "hardiness": "half-hardy",
+      "minSoilC": 7,
+      "spring": {
+        "from": -2,
+        "to": 6
+      },
+      "autumn": {
+        "from": -8,
+        "to": -2
+      },
+      "daysToHarvest": [
+        50,
+        70
+      ],
+      "harvestWeeks": [
+        6,
+        8
+      ],
+      "successionWeeks": 4,
+      "spacingCm": 20,
+      "gapValue": 3,
+      "notes": "Let one plant flower for beneficial insects."
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "family": "Solanaceae",
+      "method": "direct",
+      "hardiness": "half-hardy",
+      "minSoilC": 7,
+      "spring": {
+        "from": -2,
+        "to": 4
+      },
+      "daysToHarvest": [
+        90,
+        120
+      ],
+      "harvestWeeks": [
+        8,
+        12
+      ],
+      "spacingCm": 30,
+      "gapValue": 3,
+      "notes": "Plant certified seed potatoes. Hill the rows."
+    },
+    {
+      "id": "sweet-potato",
+      "name": "Sweet potato",
+      "family": "Convolvulaceae",
+      "method": "transplant",
+      "hardiness": "tender",
+      "minSoilC": 18,
+      "spring": {
+        "from": 4,
+        "to": 10
+      },
+      "daysToHarvest": [
+        100,
+        130
+      ],
+      "harvestWeeks": [
+        12,
+        16
+      ],
+      "spacingCm": 40,
+      "gapValue": 2,
+      "notes": "Needs a long warm season. Lift before cold."
+    },
+    {
+      "id": "onion",
+      "name": "Onion",
+      "family": "Amaryllidaceae",
+      "method": "transplant",
+      "hardiness": "hardy",
+      "minSoilC": 7,
+      "spring": {
+        "from": -4,
+        "to": 2
+      },
+      "autumn": {
+        "from": -8,
+        "to": -4
+      },
+      "daysToHarvest": [
+        100,
+        140
+      ],
+      "harvestWeeks": [
+        4,
+        6
+      ],
+      "spacingCm": 10,
+      "gapValue": 3,
+      "notes": "Stop water when tops fall over."
+    },
+    {
+      "id": "leek",
+      "name": "Leek",
+      "family": "Amaryllidaceae",
+      "method": "transplant",
+      "hardiness": "hardy",
+      "minSoilC": 7,
+      "spring": {
+        "from": -4,
+        "to": 4
+      },
+      "autumn": {
+        "from": -8,
+        "to": -4
+      },
+      "daysToHarvest": [
+        100,
+        140
+      ],
+      "harvestWeeks": [
+        8,
+        12
+      ],
+      "spacingCm": 15,
+      "gapValue": 4,
+      "notes": "Stands in the ground through winter."
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "family": "Amaryllidaceae",
+      "method": "direct",
+      "hardiness": "hardy",
+      "minSoilC": 3,
+      "autumn": {
+        "from": -10,
+        "to": -4
+      },
+      "daysToHarvest": [
+        180,
+        240
+      ],
+      "harvestWeeks": [
+        4,
+        6
+      ],
+      "spacingCm": 12,
+      "gapValue": 4,
+      "notes": "Plant cloves in autumn. Lift when tops brown."
+    },
+    {
+      "id": "broccoli",
+      "name": "Broccoli",
+      "family": "Brassicaceae",
+      "method": "transplant",
+      "hardiness": "half-hardy",
+      "minSoilC": 7,
+      "spring": {
+        "from": -4,
+        "to": 4
+      },
+      "autumn": {
+        "from": -10,
+        "to": -4
+      },
+      "daysToHarvest": [
+        70,
+        100
+      ],
+      "harvestWeeks": [
+        6,
+        8
+      ],
+      "successionWeeks": 4,
+      "spacingCm": 45,
+      "gapValue": 4,
+      "notes": "Harvest the head before flowers open."
+    },
+    {
+      "id": "cabbage",
+      "name": "Cabbage",
+      "family": "Brassicaceae",
+      "method": "transplant",
+      "hardiness": "hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -6,
+        "to": 2
+      },
+      "autumn": {
+        "from": -10,
+        "to": -4
+      },
+      "daysToHarvest": [
+        80,
+        110
+      ],
+      "harvestWeeks": [
+        8,
+        12
+      ],
+      "spacingCm": 50,
+      "gapValue": 3,
+      "notes": "Firm heads hold well in cool weather."
+    },
+    {
+      "id": "cauliflower",
+      "name": "Cauliflower",
+      "family": "Brassicaceae",
+      "method": "transplant",
+      "hardiness": "half-hardy",
+      "minSoilC": 7,
+      "spring": {
+        "from": -4,
+        "to": 2
+      },
+      "autumn": {
+        "from": -10,
+        "to": -4
+      },
+      "daysToHarvest": [
+        80,
+        110
+      ],
+      "harvestWeeks": [
+        6,
+        8
+      ],
+      "spacingCm": 50,
+      "gapValue": 3,
+      "notes": "Tie leaves over the curd to keep it white."
+    },
+    {
+      "id": "brussels-sprouts",
+      "name": "Brussels sprouts",
+      "family": "Brassicaceae",
+      "method": "transplant",
+      "hardiness": "hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -6,
+        "to": 0
+      },
+      "autumn": {
+        "from": -10,
+        "to": -4
+      },
+      "daysToHarvest": [
+        90,
+        120
+      ],
+      "harvestWeeks": [
+        8,
+        12
+      ],
+      "spacingCm": 60,
+      "gapValue": 3,
+      "notes": "Sweetens after frost. Pick from the base."
+    },
+    {
+      "id": "celeriac",
+      "name": "Celeriac",
+      "family": "Apiaceae",
+      "method": "transplant",
+      "hardiness": "half-hardy",
+      "minSoilC": 10,
+      "spring": {
+        "from": -2,
+        "to": 4
+      },
+      "daysToHarvest": [
+        100,
+        130
+      ],
+      "harvestWeeks": [
+        8,
+        12
+      ],
+      "spacingCm": 35,
+      "gapValue": 3,
+      "notes": "Keep water up. Roots store well."
+    },
+    {
+      "id": "fennel",
+      "name": "Fennel",
+      "family": "Apiaceae",
+      "method": "direct",
+      "hardiness": "half-hardy",
+      "minSoilC": 7,
+      "spring": {
+        "from": -2,
+        "to": 6
+      },
+      "autumn": {
+        "from": -8,
+        "to": -2
+      },
+      "daysToHarvest": [
+        80,
+        100
+      ],
+      "harvestWeeks": [
+        6,
+        8
+      ],
+      "spacingCm": 25,
+      "gapValue": 3,
+      "notes": "Sow where it will grow. It resents transplant."
+    },
+    {
+      "id": "turnip",
+      "name": "Turnip",
+      "family": "Brassicaceae",
+      "method": "direct",
+      "hardiness": "hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -4,
+        "to": 6
+      },
+      "autumn": {
+        "from": -8,
+        "to": -2
+      },
+      "daysToHarvest": [
+        45,
+        60
+      ],
+      "harvestWeeks": [
+        4,
+        6
+      ],
+      "successionWeeks": 3,
+      "spacingCm": 15,
+      "gapValue": 4,
+      "notes": "Fast crop. Thin to the final spacing."
+    },
+    {
+      "id": "parsnip",
+      "name": "Parsnip",
+      "family": "Apiaceae",
+      "method": "direct",
+      "hardiness": "hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -2,
+        "to": 4
+      },
+      "daysToHarvest": [
+        120,
+        160
+      ],
+      "harvestWeeks": [
+        8,
+        12
+      ],
+      "spacingCm": 15,
+      "gapValue": 3,
+      "notes": "Fresh seed only. Roots sweeten after frost."
+    },
+    {
+      "id": "sweet-pepper",
+      "name": "Sweet pepper",
+      "family": "Solanaceae",
+      "method": "transplant",
+      "hardiness": "tender",
+      "minSoilC": 18,
+      "spring": {
+        "from": 4,
+        "to": 10
+      },
+      "daysToHarvest": [
+        80,
+        110
+      ],
+      "harvestWeeks": [
+        10,
+        14
+      ],
+      "spacingCm": 45,
+      "gapValue": 2,
+      "notes": "Needs steady warmth. Grow in a sheltered spot."
+    },
+    {
+      "id": "chilli",
+      "name": "Chilli",
+      "family": "Solanaceae",
+      "method": "transplant",
+      "hardiness": "tender",
+      "minSoilC": 18,
+      "spring": {
+        "from": 4,
+        "to": 10
+      },
+      "daysToHarvest": [
+        80,
+        110
+      ],
+      "harvestWeeks": [
+        10,
+        14
+      ],
+      "spacingCm": 45,
+      "gapValue": 2,
+      "notes": "Pots work well. Move under cover in cold."
+    },
+    {
+      "id": "eggplant",
+      "name": "Eggplant",
+      "family": "Solanaceae",
+      "method": "transplant",
+      "hardiness": "tender",
+      "minSoilC": 18,
+      "spring": {
+        "from": 4,
+        "to": 10
+      },
+      "daysToHarvest": [
+        80,
+        110
+      ],
+      "harvestWeeks": [
+        10,
+        14
+      ],
+      "spacingCm": 50,
+      "gapValue": 2,
+      "notes": "Slow to start. Pick while the skin is glossy."
+    },
+    {
+      "id": "rocket",
+      "name": "Rocket",
+      "family": "Brassicaceae",
+      "method": "direct",
+      "hardiness": "hardy",
+      "minSoilC": 5,
+      "spring": {
+        "from": -6,
+        "to": 6
+      },
+      "autumn": {
+        "from": -10,
+        "to": -2
+      },
+      "daysToHarvest": [
+        30,
+        45
+      ],
+      "harvestWeeks": [
+        4,
+        6
+      ],
+      "successionWeeks": 2,
+      "spacingCm": 10,
+      "gapValue": 5,
+      "notes": "Cut and come again. Best in cool weather."
+    },
+    {
+      "id": "pak-choi",
+      "name": "Pak choi",
+      "family": "Brassicaceae",
+      "method": "direct",
+      "hardiness": "half-hardy",
+      "minSoilC": 7,
+      "spring": {
+        "from": -2,
+        "to": 6
+      },
+      "autumn": {
+        "from": -8,
+        "to": -2
+      },
+      "daysToHarvest": [
+        45,
+        60
+      ],
+      "harvestWeeks": [
+        4,
+        6
+      ],
+      "successionWeeks": 2,
+      "spacingCm": 15,
+      "gapValue": 5,
+      "notes": "Quick crop. Bolts in hot, dry weather."
+    }
+  ],
+  "plantings": [
+    {
+      "id": "broad-bean-2026-08-18",
+      "cropId": "broad-bean",
+      "cropName": "Broad bean",
+      "bed": 1,
+      "sowDate": "2026-08-18",
+      "transplantDate": null,
+      "harvestStart": "2026-12-01",
+      "harvestEnd": "2027-01-19",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 8.9
+    },
+    {
+      "id": "brussels-sprouts-2026-08-18",
+      "cropId": "brussels-sprouts",
+      "cropName": "Brussels sprouts",
+      "bed": 2,
+      "sowDate": "2026-08-18",
+      "transplantDate": "2026-09-15",
+      "harvestStart": "2026-12-29",
+      "harvestEnd": "2027-03-09",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 8.9
+    },
+    {
+      "id": "cabbage-2026-08-18",
+      "cropId": "cabbage",
+      "cropName": "Cabbage",
+      "bed": 3,
+      "sowDate": "2026-08-18",
+      "transplantDate": "2026-09-15",
+      "harvestStart": "2026-12-19",
+      "harvestEnd": "2027-02-27",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 8.9
+    },
+    {
+      "id": "broccoli-2026-08-25",
+      "cropId": "broccoli",
+      "cropName": "Broccoli",
+      "bed": 4,
+      "sowDate": "2026-08-25",
+      "transplantDate": "2026-09-22",
+      "harvestStart": "2026-12-16",
+      "harvestEnd": "2027-02-03",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "cauliflower-2026-08-25",
+      "cropId": "cauliflower",
+      "cropName": "Cauliflower",
+      "bed": 1,
+      "sowDate": "2026-08-25",
+      "transplantDate": "2026-09-22",
+      "harvestStart": "2026-12-26",
+      "harvestEnd": "2027-02-13",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "kale-2026-08-25",
+      "cropId": "kale",
+      "cropName": "Kale",
+      "bed": 2,
+      "sowDate": "2026-08-25",
+      "transplantDate": "2026-09-22",
+      "harvestStart": "2026-11-26",
+      "harvestEnd": "2027-02-04",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "leek-2026-08-25",
+      "cropId": "leek",
+      "cropName": "Leek",
+      "bed": 3,
+      "sowDate": "2026-08-25",
+      "transplantDate": "2026-09-22",
+      "harvestStart": "2027-01-20",
+      "harvestEnd": "2027-03-31",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "lettuce-2026-08-25",
+      "cropId": "lettuce",
+      "cropName": "Lettuce",
+      "bed": 4,
+      "sowDate": "2026-08-25",
+      "transplantDate": null,
+      "harvestStart": "2026-10-07",
+      "harvestEnd": "2026-11-25",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "onion-2026-08-25",
+      "cropId": "onion",
+      "cropName": "Onion",
+      "bed": 1,
+      "sowDate": "2026-08-25",
+      "transplantDate": "2026-09-22",
+      "harvestStart": "2027-01-20",
+      "harvestEnd": "2027-02-24",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "parsley-2026-08-25",
+      "cropId": "parsley",
+      "cropName": "Parsley",
+      "bed": 2,
+      "sowDate": "2026-08-25",
+      "transplantDate": null,
+      "harvestStart": "2026-11-13",
+      "harvestEnd": "2027-03-05",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "pea-2026-08-25",
+      "cropId": "pea",
+      "cropName": "Pea",
+      "bed": 3,
+      "sowDate": "2026-08-25",
+      "transplantDate": null,
+      "harvestStart": "2026-11-03",
+      "harvestEnd": "2026-12-08",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "radish-2026-08-25",
+      "cropId": "radish",
+      "cropName": "Radish",
+      "bed": 4,
+      "sowDate": "2026-08-25",
+      "transplantDate": null,
+      "harvestStart": "2026-09-24",
+      "harvestEnd": "2026-10-15",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "rocket-2026-08-25",
+      "cropId": "rocket",
+      "cropName": "Rocket",
+      "bed": 1,
+      "sowDate": "2026-08-25",
+      "transplantDate": null,
+      "harvestStart": "2026-10-02",
+      "harvestEnd": "2026-11-06",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "silverbeet-2026-08-25",
+      "cropId": "silverbeet",
+      "cropName": "Silverbeet",
+      "bed": 2,
+      "sowDate": "2026-08-25",
+      "transplantDate": null,
+      "harvestStart": "2026-10-24",
+      "harvestEnd": "2027-01-16",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "snow-pea-2026-08-25",
+      "cropId": "snow-pea",
+      "cropName": "Snow pea",
+      "bed": 3,
+      "sowDate": "2026-08-25",
+      "transplantDate": null,
+      "harvestStart": "2026-11-08",
+      "harvestEnd": "2026-12-13",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "spinach-2026-08-25",
+      "cropId": "spinach",
+      "cropName": "Spinach",
+      "bed": 4,
+      "sowDate": "2026-08-25",
+      "transplantDate": null,
+      "harvestStart": "2026-10-14",
+      "harvestEnd": "2026-12-02",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "spring-onion-2026-08-25",
+      "cropId": "spring-onion",
+      "cropName": "Spring onion",
+      "bed": 1,
+      "sowDate": "2026-08-25",
+      "transplantDate": null,
+      "harvestStart": "2026-11-03",
+      "harvestEnd": "2027-01-12",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "turnip-2026-08-25",
+      "cropId": "turnip",
+      "cropName": "Turnip",
+      "bed": 2,
+      "sowDate": "2026-08-25",
+      "transplantDate": null,
+      "harvestStart": "2026-10-17",
+      "harvestEnd": "2026-11-21",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 10.7
+    },
+    {
+      "id": "beetroot-2026-09-08",
+      "cropId": "beetroot",
+      "cropName": "Beetroot",
+      "bed": 3,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2026-11-12",
+      "harvestEnd": "2026-12-17",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "carrot-2026-09-08",
+      "cropId": "carrot",
+      "cropName": "Carrot",
+      "bed": 4,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2026-11-27",
+      "harvestEnd": "2027-01-01",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "celeriac-2026-09-08",
+      "cropId": "celeriac",
+      "cropName": "Celeriac",
+      "bed": 1,
+      "sowDate": "2026-09-08",
+      "transplantDate": "2026-10-06",
+      "harvestStart": "2027-01-29",
+      "harvestEnd": "2027-04-09",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "coriander-2026-09-08",
+      "cropId": "coriander",
+      "cropName": "Coriander",
+      "bed": 2,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2026-10-31",
+      "harvestEnd": "2026-12-05",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "dill-2026-09-08",
+      "cropId": "dill",
+      "cropName": "Dill",
+      "bed": 3,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2026-11-07",
+      "harvestEnd": "2026-12-26",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "fennel-2026-09-08",
+      "cropId": "fennel",
+      "cropName": "Fennel",
+      "bed": 4,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2026-12-07",
+      "harvestEnd": "2027-01-25",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "lettuce-2026-09-08",
+      "cropId": "lettuce",
+      "cropName": "Lettuce",
+      "bed": 4,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2026-10-21",
+      "harvestEnd": "2026-12-09",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "pak-choi-2026-09-08",
+      "cropId": "pak-choi",
+      "cropName": "Pak choi",
+      "bed": 1,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2026-10-31",
+      "harvestEnd": "2026-12-05",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "parsnip-2026-09-08",
+      "cropId": "parsnip",
+      "cropName": "Parsnip",
+      "bed": 2,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2027-01-26",
+      "harvestEnd": "2027-04-06",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "pea-2026-09-08",
+      "cropId": "pea",
+      "cropName": "Pea",
+      "bed": 3,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2026-11-17",
+      "harvestEnd": "2026-12-22",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "potato-2026-09-08",
+      "cropId": "potato",
+      "cropName": "Potato",
+      "bed": 3,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2026-12-22",
+      "harvestEnd": "2027-03-02",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "radish-2026-09-08",
+      "cropId": "radish",
+      "cropName": "Radish",
+      "bed": 4,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2026-10-08",
+      "harvestEnd": "2026-10-29",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "rocket-2026-09-08",
+      "cropId": "rocket",
+      "cropName": "Rocket",
+      "bed": 1,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2026-10-16",
+      "harvestEnd": "2026-11-20",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "snow-pea-2026-09-08",
+      "cropId": "snow-pea",
+      "cropName": "Snow pea",
+      "bed": 3,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2026-11-22",
+      "harvestEnd": "2026-12-27",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "spinach-2026-09-08",
+      "cropId": "spinach",
+      "cropName": "Spinach",
+      "bed": 4,
+      "sowDate": "2026-09-08",
+      "transplantDate": null,
+      "harvestStart": "2026-10-28",
+      "harvestEnd": "2026-12-16",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 11.8
+    },
+    {
+      "id": "spring-onion-2026-09-15",
+      "cropId": "spring-onion",
+      "cropName": "Spring onion",
+      "bed": 1,
+      "sowDate": "2026-09-15",
+      "transplantDate": null,
+      "harvestStart": "2026-11-24",
+      "harvestEnd": "2027-02-02",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 12.1
+    },
+    {
+      "id": "turnip-2026-09-15",
+      "cropId": "turnip",
+      "cropName": "Turnip",
+      "bed": 2,
+      "sowDate": "2026-09-15",
+      "transplantDate": null,
+      "harvestStart": "2026-11-07",
+      "harvestEnd": "2026-12-12",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 12.1
+    },
+    {
+      "id": "broccoli-2026-09-22",
+      "cropId": "broccoli",
+      "cropName": "Broccoli",
+      "bed": 4,
+      "sowDate": "2026-09-22",
+      "transplantDate": "2026-10-20",
+      "harvestStart": "2027-01-13",
+      "harvestEnd": "2027-03-03",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 12.3
+    },
+    {
+      "id": "kale-2026-09-22",
+      "cropId": "kale",
+      "cropName": "Kale",
+      "bed": 2,
+      "sowDate": "2026-09-22",
+      "transplantDate": "2026-10-20",
+      "harvestStart": "2026-12-24",
+      "harvestEnd": "2027-03-04",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 12.3
+    },
+    {
+      "id": "lettuce-2026-09-22",
+      "cropId": "lettuce",
+      "cropName": "Lettuce",
+      "bed": 4,
+      "sowDate": "2026-09-22",
+      "transplantDate": null,
+      "harvestStart": "2026-11-04",
+      "harvestEnd": "2026-12-23",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 12.3
+    },
+    {
+      "id": "pak-choi-2026-09-22",
+      "cropId": "pak-choi",
+      "cropName": "Pak choi",
+      "bed": 1,
+      "sowDate": "2026-09-22",
+      "transplantDate": null,
+      "harvestStart": "2026-11-14",
+      "harvestEnd": "2026-12-19",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 12.3
+    },
+    {
+      "id": "pea-2026-09-22",
+      "cropId": "pea",
+      "cropName": "Pea",
+      "bed": 3,
+      "sowDate": "2026-09-22",
+      "transplantDate": null,
+      "harvestStart": "2026-12-01",
+      "harvestEnd": "2027-01-05",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 12.3
+    },
+    {
+      "id": "radish-2026-09-22",
+      "cropId": "radish",
+      "cropName": "Radish",
+      "bed": 4,
+      "sowDate": "2026-09-22",
+      "transplantDate": null,
+      "harvestStart": "2026-10-22",
+      "harvestEnd": "2026-11-12",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 12.3
+    },
+    {
+      "id": "rocket-2026-09-22",
+      "cropId": "rocket",
+      "cropName": "Rocket",
+      "bed": 1,
+      "sowDate": "2026-09-22",
+      "transplantDate": null,
+      "harvestStart": "2026-10-30",
+      "harvestEnd": "2026-12-04",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 12.3
+    },
+    {
+      "id": "silverbeet-2026-09-22",
+      "cropId": "silverbeet",
+      "cropName": "Silverbeet",
+      "bed": 2,
+      "sowDate": "2026-09-22",
+      "transplantDate": null,
+      "harvestStart": "2026-11-21",
+      "harvestEnd": "2027-02-13",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 12.3
+    },
+    {
+      "id": "snow-pea-2026-09-22",
+      "cropId": "snow-pea",
+      "cropName": "Snow pea",
+      "bed": 3,
+      "sowDate": "2026-09-22",
+      "transplantDate": null,
+      "harvestStart": "2026-12-06",
+      "harvestEnd": "2027-01-10",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 12.3
+    },
+    {
+      "id": "spinach-2026-09-22",
+      "cropId": "spinach",
+      "cropName": "Spinach",
+      "bed": 4,
+      "sowDate": "2026-09-22",
+      "transplantDate": null,
+      "harvestStart": "2026-11-11",
+      "harvestEnd": "2026-12-30",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 12.3
+    },
+    {
+      "id": "beetroot-2026-09-29",
+      "cropId": "beetroot",
+      "cropName": "Beetroot",
+      "bed": 3,
+      "sowDate": "2026-09-29",
+      "transplantDate": null,
+      "harvestStart": "2026-12-03",
+      "harvestEnd": "2027-01-07",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 13.7
+    },
+    {
+      "id": "carrot-2026-09-29",
+      "cropId": "carrot",
+      "cropName": "Carrot",
+      "bed": 4,
+      "sowDate": "2026-09-29",
+      "transplantDate": null,
+      "harvestStart": "2026-12-18",
+      "harvestEnd": "2027-01-22",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 13.7
+    },
+    {
+      "id": "coriander-2026-09-29",
+      "cropId": "coriander",
+      "cropName": "Coriander",
+      "bed": 2,
+      "sowDate": "2026-09-29",
+      "transplantDate": null,
+      "harvestStart": "2026-11-21",
+      "harvestEnd": "2026-12-26",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 13.7
+    },
+    {
+      "id": "climbing-bean-2026-10-06",
+      "cropId": "climbing-bean",
+      "cropName": "Climbing bean",
+      "bed": 4,
+      "sowDate": "2026-10-06",
+      "transplantDate": null,
+      "harvestStart": "2026-12-08",
+      "harvestEnd": "2027-01-26",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "dill-2026-10-06",
+      "cropId": "dill",
+      "cropName": "Dill",
+      "bed": 3,
+      "sowDate": "2026-10-06",
+      "transplantDate": null,
+      "harvestStart": "2026-12-05",
+      "harvestEnd": "2027-01-23",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "lettuce-2026-10-06",
+      "cropId": "lettuce",
+      "cropName": "Lettuce",
+      "bed": 4,
+      "sowDate": "2026-10-06",
+      "transplantDate": null,
+      "harvestStart": "2026-11-18",
+      "harvestEnd": "2027-01-06",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 3,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "pak-choi-2026-10-06",
+      "cropId": "pak-choi",
+      "cropName": "Pak choi",
+      "bed": 1,
+      "sowDate": "2026-10-06",
+      "transplantDate": null,
+      "harvestStart": "2026-11-28",
+      "harvestEnd": "2027-01-02",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "radish-2026-10-06",
+      "cropId": "radish",
+      "cropName": "Radish",
+      "bed": 4,
+      "sowDate": "2026-10-06",
+      "transplantDate": null,
+      "harvestStart": "2026-11-05",
+      "harvestEnd": "2026-11-26",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 3,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "rocket-2026-10-06",
+      "cropId": "rocket",
+      "cropName": "Rocket",
+      "bed": 1,
+      "sowDate": "2026-10-06",
+      "transplantDate": null,
+      "harvestStart": "2026-11-13",
+      "harvestEnd": "2026-12-18",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 3,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "spinach-2026-10-06",
+      "cropId": "spinach",
+      "cropName": "Spinach",
+      "bed": 4,
+      "sowDate": "2026-10-06",
+      "transplantDate": null,
+      "harvestStart": "2026-11-25",
+      "harvestEnd": "2027-01-13",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 3,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "spring-onion-2026-10-06",
+      "cropId": "spring-onion",
+      "cropName": "Spring onion",
+      "bed": 1,
+      "sowDate": "2026-10-06",
+      "transplantDate": null,
+      "harvestStart": "2026-12-15",
+      "harvestEnd": "2027-02-23",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "sweetcorn-2026-10-06",
+      "cropId": "sweetcorn",
+      "cropName": "Sweetcorn",
+      "bed": 1,
+      "sowDate": "2026-10-06",
+      "transplantDate": null,
+      "harvestStart": "2027-01-04",
+      "harvestEnd": "2027-02-08",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "turnip-2026-10-06",
+      "cropId": "turnip",
+      "cropName": "Turnip",
+      "bed": 2,
+      "sowDate": "2026-10-06",
+      "transplantDate": null,
+      "harvestStart": "2026-11-28",
+      "harvestEnd": "2027-01-02",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "zucchini-2026-10-06",
+      "cropId": "zucchini",
+      "cropName": "Zucchini",
+      "bed": 2,
+      "sowDate": "2026-10-06",
+      "transplantDate": "2026-11-03",
+      "harvestStart": "2026-12-31",
+      "harvestEnd": "2027-03-11",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "cherry-tomato-2026-10-13",
+      "cropId": "cherry-tomato",
+      "cropName": "Cherry tomato",
+      "bed": 3,
+      "sowDate": "2026-10-13",
+      "transplantDate": "2026-11-10",
+      "harvestStart": "2027-01-19",
+      "harvestEnd": "2027-04-13",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 15.4
+    },
+    {
+      "id": "cucumber-2026-10-13",
+      "cropId": "cucumber",
+      "cropName": "Cucumber",
+      "bed": 4,
+      "sowDate": "2026-10-13",
+      "transplantDate": "2026-11-10",
+      "harvestStart": "2027-01-12",
+      "harvestEnd": "2027-03-02",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 15.4
+    },
+    {
+      "id": "pumpkin-2026-10-13",
+      "cropId": "pumpkin",
+      "cropName": "Pumpkin",
+      "bed": 1,
+      "sowDate": "2026-10-13",
+      "transplantDate": null,
+      "harvestStart": "2027-01-26",
+      "harvestEnd": "2027-05-04",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 15.4
+    },
+    {
+      "id": "tomato-2026-10-13",
+      "cropId": "tomato",
+      "cropName": "Tomato",
+      "bed": 2,
+      "sowDate": "2026-10-13",
+      "transplantDate": "2026-11-10",
+      "harvestStart": "2027-01-22",
+      "harvestEnd": "2027-04-16",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 15.4
+    },
+    {
+      "id": "beetroot-2026-10-20",
+      "cropId": "beetroot",
+      "cropName": "Beetroot",
+      "bed": 3,
+      "sowDate": "2026-10-20",
+      "transplantDate": null,
+      "harvestStart": "2026-12-24",
+      "harvestEnd": "2027-01-28",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "broccoli-2026-10-20",
+      "cropId": "broccoli",
+      "cropName": "Broccoli",
+      "bed": 4,
+      "sowDate": "2026-10-20",
+      "transplantDate": "2026-11-17",
+      "harvestStart": "2027-02-10",
+      "harvestEnd": "2027-03-31",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "carrot-2026-10-20",
+      "cropId": "carrot",
+      "cropName": "Carrot",
+      "bed": 4,
+      "sowDate": "2026-10-20",
+      "transplantDate": null,
+      "harvestStart": "2027-01-08",
+      "harvestEnd": "2027-02-12",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "coriander-2026-10-20",
+      "cropId": "coriander",
+      "cropName": "Coriander",
+      "bed": 2,
+      "sowDate": "2026-10-20",
+      "transplantDate": null,
+      "harvestStart": "2026-12-12",
+      "harvestEnd": "2027-01-16",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "lettuce-2026-10-20",
+      "cropId": "lettuce",
+      "cropName": "Lettuce",
+      "bed": 4,
+      "sowDate": "2026-10-20",
+      "transplantDate": null,
+      "harvestStart": "2026-12-02",
+      "harvestEnd": "2027-01-20",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 4,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "pak-choi-2026-10-20",
+      "cropId": "pak-choi",
+      "cropName": "Pak choi",
+      "bed": 1,
+      "sowDate": "2026-10-20",
+      "transplantDate": null,
+      "harvestStart": "2026-12-12",
+      "harvestEnd": "2027-01-16",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 3,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "radish-2026-10-20",
+      "cropId": "radish",
+      "cropName": "Radish",
+      "bed": 4,
+      "sowDate": "2026-10-20",
+      "transplantDate": null,
+      "harvestStart": "2026-11-19",
+      "harvestEnd": "2026-12-10",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 4,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "rocket-2026-10-20",
+      "cropId": "rocket",
+      "cropName": "Rocket",
+      "bed": 1,
+      "sowDate": "2026-10-20",
+      "transplantDate": null,
+      "harvestStart": "2026-11-27",
+      "harvestEnd": "2027-01-01",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 4,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "silverbeet-2026-10-20",
+      "cropId": "silverbeet",
+      "cropName": "Silverbeet",
+      "bed": 2,
+      "sowDate": "2026-10-20",
+      "transplantDate": null,
+      "harvestStart": "2026-12-19",
+      "harvestEnd": "2027-03-13",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "spinach-2026-10-20",
+      "cropId": "spinach",
+      "cropName": "Spinach",
+      "bed": 4,
+      "sowDate": "2026-10-20",
+      "transplantDate": null,
+      "harvestStart": "2026-12-09",
+      "harvestEnd": "2027-01-27",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 4,
+      "soilAtSowC": 14.5
+    },
+    {
+      "id": "climbing-bean-2026-10-27",
+      "cropId": "climbing-bean",
+      "cropName": "Climbing bean",
+      "bed": 4,
+      "sowDate": "2026-10-27",
+      "transplantDate": null,
+      "harvestStart": "2026-12-29",
+      "harvestEnd": "2027-02-16",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 15.9
+    },
+    {
+      "id": "spring-onion-2026-10-27",
+      "cropId": "spring-onion",
+      "cropName": "Spring onion",
+      "bed": 1,
+      "sowDate": "2026-10-27",
+      "transplantDate": null,
+      "harvestStart": "2027-01-05",
+      "harvestEnd": "2027-03-16",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 3,
+      "soilAtSowC": 15.9
+    },
+    {
+      "id": "sweetcorn-2026-10-27",
+      "cropId": "sweetcorn",
+      "cropName": "Sweetcorn",
+      "bed": 1,
+      "sowDate": "2026-10-27",
+      "transplantDate": null,
+      "harvestStart": "2027-01-25",
+      "harvestEnd": "2027-03-01",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 1,
+      "soilAtSowC": 15.9
+    },
+    {
+      "id": "turnip-2026-10-27",
+      "cropId": "turnip",
+      "cropName": "Turnip",
+      "bed": 2,
+      "sowDate": "2026-10-27",
+      "transplantDate": null,
+      "harvestStart": "2026-12-19",
+      "harvestEnd": "2027-01-23",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 3,
+      "soilAtSowC": 15.9
+    },
+    {
+      "id": "dill-2026-11-03",
+      "cropId": "dill",
+      "cropName": "Dill",
+      "bed": 3,
+      "sowDate": "2026-11-03",
+      "transplantDate": null,
+      "harvestStart": "2027-01-02",
+      "harvestEnd": "2027-02-20",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 15.8
+    },
+    {
+      "id": "lettuce-2026-11-03",
+      "cropId": "lettuce",
+      "cropName": "Lettuce",
+      "bed": 4,
+      "sowDate": "2026-11-03",
+      "transplantDate": null,
+      "harvestStart": "2026-12-16",
+      "harvestEnd": "2027-02-03",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 5,
+      "soilAtSowC": 15.8
+    },
+    {
+      "id": "pak-choi-2026-11-03",
+      "cropId": "pak-choi",
+      "cropName": "Pak choi",
+      "bed": 1,
+      "sowDate": "2026-11-03",
+      "transplantDate": null,
+      "harvestStart": "2026-12-26",
+      "harvestEnd": "2027-01-30",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 4,
+      "soilAtSowC": 15.8
+    },
+    {
+      "id": "radish-2026-11-03",
+      "cropId": "radish",
+      "cropName": "Radish",
+      "bed": 4,
+      "sowDate": "2026-11-03",
+      "transplantDate": null,
+      "harvestStart": "2026-12-03",
+      "harvestEnd": "2026-12-24",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 5,
+      "soilAtSowC": 15.8
+    },
+    {
+      "id": "rocket-2026-11-03",
+      "cropId": "rocket",
+      "cropName": "Rocket",
+      "bed": 1,
+      "sowDate": "2026-11-03",
+      "transplantDate": null,
+      "harvestStart": "2026-12-11",
+      "harvestEnd": "2027-01-15",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 5,
+      "soilAtSowC": 15.8
+    },
+    {
+      "id": "beetroot-2026-11-10",
+      "cropId": "beetroot",
+      "cropName": "Beetroot",
+      "bed": 3,
+      "sowDate": "2026-11-10",
+      "transplantDate": null,
+      "harvestStart": "2027-01-14",
+      "harvestEnd": "2027-02-18",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 3,
+      "soilAtSowC": 15.8
+    },
+    {
+      "id": "carrot-2026-11-10",
+      "cropId": "carrot",
+      "cropName": "Carrot",
+      "bed": 4,
+      "sowDate": "2026-11-10",
+      "transplantDate": null,
+      "harvestStart": "2027-01-29",
+      "harvestEnd": "2027-03-05",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 3,
+      "soilAtSowC": 15.8
+    },
+    {
+      "id": "basil-2026-11-17",
+      "cropId": "basil",
+      "cropName": "Basil",
+      "bed": 3,
+      "sowDate": "2026-11-17",
+      "transplantDate": "2026-12-15",
+      "harvestStart": "2027-02-23",
+      "harvestEnd": "2027-05-04",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 16.3
+    },
+    {
+      "id": "climbing-bean-2026-11-17",
+      "cropId": "climbing-bean",
+      "cropName": "Climbing bean",
+      "bed": 4,
+      "sowDate": "2026-11-17",
+      "transplantDate": null,
+      "harvestStart": "2027-01-19",
+      "harvestEnd": "2027-03-09",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 16.3
+    },
+    {
+      "id": "spring-onion-2026-11-17",
+      "cropId": "spring-onion",
+      "cropName": "Spring onion",
+      "bed": 1,
+      "sowDate": "2026-11-17",
+      "transplantDate": null,
+      "harvestStart": "2027-01-26",
+      "harvestEnd": "2027-04-06",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 4,
+      "soilAtSowC": 16.3
+    },
+    {
+      "id": "sweetcorn-2026-11-17",
+      "cropId": "sweetcorn",
+      "cropName": "Sweetcorn",
+      "bed": 1,
+      "sowDate": "2026-11-17",
+      "transplantDate": null,
+      "harvestStart": "2027-02-15",
+      "harvestEnd": "2027-03-22",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 2,
+      "soilAtSowC": 16.3
+    },
+    {
+      "id": "chilli-2026-12-01",
+      "cropId": "chilli",
+      "cropName": "Chilli",
+      "bed": 4,
+      "sowDate": "2026-12-01",
+      "transplantDate": "2026-12-29",
+      "harvestStart": "2027-04-03",
+      "harvestEnd": "2027-06-26",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 18.6
+    },
+    {
+      "id": "eggplant-2026-12-01",
+      "cropId": "eggplant",
+      "cropName": "Eggplant",
+      "bed": 1,
+      "sowDate": "2026-12-01",
+      "transplantDate": "2026-12-29",
+      "harvestStart": "2027-04-03",
+      "harvestEnd": "2027-06-26",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 18.6
+    },
+    {
+      "id": "sweet-pepper-2026-12-01",
+      "cropId": "sweet-pepper",
+      "cropName": "Sweet pepper",
+      "bed": 2,
+      "sowDate": "2026-12-01",
+      "transplantDate": "2026-12-29",
+      "harvestStart": "2027-04-03",
+      "harvestEnd": "2027-06-26",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 18.6
+    },
+    {
+      "id": "sweet-potato-2026-12-01",
+      "cropId": "sweet-potato",
+      "cropName": "Sweet potato",
+      "bed": 3,
+      "sowDate": "2026-12-01",
+      "transplantDate": "2026-12-29",
+      "harvestStart": "2027-04-23",
+      "harvestEnd": "2027-07-30",
+      "seasonYear": 2026,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 18.6
+    },
+    {
+      "id": "broad-bean-2027-03-16",
+      "cropId": "broad-bean",
+      "cropName": "Broad bean",
+      "bed": 1,
+      "sowDate": "2027-03-16",
+      "transplantDate": null,
+      "harvestStart": "2027-06-29",
+      "harvestEnd": "2027-08-17",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 19.6
+    },
+    {
+      "id": "broccoli-2027-03-16",
+      "cropId": "broccoli",
+      "cropName": "Broccoli",
+      "bed": 4,
+      "sowDate": "2027-03-16",
+      "transplantDate": "2027-04-13",
+      "harvestStart": "2027-07-07",
+      "harvestEnd": "2027-08-25",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 19.6
+    },
+    {
+      "id": "brussels-sprouts-2027-03-16",
+      "cropId": "brussels-sprouts",
+      "cropName": "Brussels sprouts",
+      "bed": 2,
+      "sowDate": "2027-03-16",
+      "transplantDate": "2027-04-13",
+      "harvestStart": "2027-07-27",
+      "harvestEnd": "2027-10-05",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 19.6
+    },
+    {
+      "id": "cabbage-2027-03-16",
+      "cropId": "cabbage",
+      "cropName": "Cabbage",
+      "bed": 3,
+      "sowDate": "2027-03-16",
+      "transplantDate": "2027-04-13",
+      "harvestStart": "2027-07-17",
+      "harvestEnd": "2027-09-25",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 19.6
+    },
+    {
+      "id": "cauliflower-2027-03-16",
+      "cropId": "cauliflower",
+      "cropName": "Cauliflower",
+      "bed": 1,
+      "sowDate": "2027-03-16",
+      "transplantDate": "2027-04-13",
+      "harvestStart": "2027-07-17",
+      "harvestEnd": "2027-09-04",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 19.6
+    },
+    {
+      "id": "garlic-2027-03-16",
+      "cropId": "garlic",
+      "cropName": "Garlic",
+      "bed": 4,
+      "sowDate": "2027-03-16",
+      "transplantDate": null,
+      "harvestStart": "2027-10-12",
+      "harvestEnd": "2027-11-16",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 19.6
+    },
+    {
+      "id": "kale-2027-03-16",
+      "cropId": "kale",
+      "cropName": "Kale",
+      "bed": 2,
+      "sowDate": "2027-03-16",
+      "transplantDate": "2027-04-13",
+      "harvestStart": "2027-06-17",
+      "harvestEnd": "2027-08-26",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 19.6
+    },
+    {
+      "id": "rocket-2027-03-16",
+      "cropId": "rocket",
+      "cropName": "Rocket",
+      "bed": 1,
+      "sowDate": "2027-03-16",
+      "transplantDate": null,
+      "harvestStart": "2027-04-23",
+      "harvestEnd": "2027-05-28",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 19.6
+    },
+    {
+      "id": "beetroot-2027-03-30",
+      "cropId": "beetroot",
+      "cropName": "Beetroot",
+      "bed": 3,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-06-03",
+      "harvestEnd": "2027-07-08",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "carrot-2027-03-30",
+      "cropId": "carrot",
+      "cropName": "Carrot",
+      "bed": 4,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-06-18",
+      "harvestEnd": "2027-07-23",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "coriander-2027-03-30",
+      "cropId": "coriander",
+      "cropName": "Coriander",
+      "bed": 2,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-05-22",
+      "harvestEnd": "2027-06-26",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "dill-2027-03-30",
+      "cropId": "dill",
+      "cropName": "Dill",
+      "bed": 3,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-05-29",
+      "harvestEnd": "2027-07-17",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "fennel-2027-03-30",
+      "cropId": "fennel",
+      "cropName": "Fennel",
+      "bed": 4,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-06-28",
+      "harvestEnd": "2027-08-16",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "leek-2027-03-30",
+      "cropId": "leek",
+      "cropName": "Leek",
+      "bed": 3,
+      "sowDate": "2027-03-30",
+      "transplantDate": "2027-04-27",
+      "harvestStart": "2027-08-25",
+      "harvestEnd": "2027-11-03",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "lettuce-2027-03-30",
+      "cropId": "lettuce",
+      "cropName": "Lettuce",
+      "bed": 4,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-05-12",
+      "harvestEnd": "2027-06-30",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "onion-2027-03-30",
+      "cropId": "onion",
+      "cropName": "Onion",
+      "bed": 1,
+      "sowDate": "2027-03-30",
+      "transplantDate": "2027-04-27",
+      "harvestStart": "2027-08-25",
+      "harvestEnd": "2027-09-29",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "pak-choi-2027-03-30",
+      "cropId": "pak-choi",
+      "cropName": "Pak choi",
+      "bed": 1,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-05-22",
+      "harvestEnd": "2027-06-26",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "parsley-2027-03-30",
+      "cropId": "parsley",
+      "cropName": "Parsley",
+      "bed": 2,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-06-18",
+      "harvestEnd": "2027-10-08",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "pea-2027-03-30",
+      "cropId": "pea",
+      "cropName": "Pea",
+      "bed": 3,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-06-08",
+      "harvestEnd": "2027-07-13",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "rocket-2027-03-30",
+      "cropId": "rocket",
+      "cropName": "Rocket",
+      "bed": 1,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-05-07",
+      "harvestEnd": "2027-06-11",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "silverbeet-2027-03-30",
+      "cropId": "silverbeet",
+      "cropName": "Silverbeet",
+      "bed": 2,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-05-29",
+      "harvestEnd": "2027-08-21",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "snow-pea-2027-03-30",
+      "cropId": "snow-pea",
+      "cropName": "Snow pea",
+      "bed": 3,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-06-13",
+      "harvestEnd": "2027-07-18",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "spinach-2027-03-30",
+      "cropId": "spinach",
+      "cropName": "Spinach",
+      "bed": 4,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-05-19",
+      "harvestEnd": "2027-07-07",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "spring-onion-2027-03-30",
+      "cropId": "spring-onion",
+      "cropName": "Spring onion",
+      "bed": 1,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-06-08",
+      "harvestEnd": "2027-08-17",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "turnip-2027-03-30",
+      "cropId": "turnip",
+      "cropName": "Turnip",
+      "bed": 2,
+      "sowDate": "2027-03-30",
+      "transplantDate": null,
+      "harvestStart": "2027-05-22",
+      "harvestEnd": "2027-06-26",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 17.6
+    },
+    {
+      "id": "broccoli-2027-04-13",
+      "cropId": "broccoli",
+      "cropName": "Broccoli",
+      "bed": 4,
+      "sowDate": "2027-04-13",
+      "transplantDate": "2027-05-11",
+      "harvestStart": "2027-08-04",
+      "harvestEnd": "2027-09-22",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 15.1
+    },
+    {
+      "id": "kale-2027-04-13",
+      "cropId": "kale",
+      "cropName": "Kale",
+      "bed": 2,
+      "sowDate": "2027-04-13",
+      "transplantDate": "2027-05-11",
+      "harvestStart": "2027-07-15",
+      "harvestEnd": "2027-09-23",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 15.1
+    },
+    {
+      "id": "lettuce-2027-04-13",
+      "cropId": "lettuce",
+      "cropName": "Lettuce",
+      "bed": 4,
+      "sowDate": "2027-04-13",
+      "transplantDate": null,
+      "harvestStart": "2027-05-26",
+      "harvestEnd": "2027-07-14",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 15.1
+    },
+    {
+      "id": "pak-choi-2027-04-13",
+      "cropId": "pak-choi",
+      "cropName": "Pak choi",
+      "bed": 1,
+      "sowDate": "2027-04-13",
+      "transplantDate": null,
+      "harvestStart": "2027-06-05",
+      "harvestEnd": "2027-07-10",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 15.1
+    },
+    {
+      "id": "pea-2027-04-13",
+      "cropId": "pea",
+      "cropName": "Pea",
+      "bed": 3,
+      "sowDate": "2027-04-13",
+      "transplantDate": null,
+      "harvestStart": "2027-06-22",
+      "harvestEnd": "2027-07-27",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 15.1
+    },
+    {
+      "id": "radish-2027-04-13",
+      "cropId": "radish",
+      "cropName": "Radish",
+      "bed": 4,
+      "sowDate": "2027-04-13",
+      "transplantDate": null,
+      "harvestStart": "2027-05-13",
+      "harvestEnd": "2027-06-03",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 0,
+      "soilAtSowC": 15.1
+    },
+    {
+      "id": "rocket-2027-04-13",
+      "cropId": "rocket",
+      "cropName": "Rocket",
+      "bed": 1,
+      "sowDate": "2027-04-13",
+      "transplantDate": null,
+      "harvestStart": "2027-05-21",
+      "harvestEnd": "2027-06-25",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 2,
+      "soilAtSowC": 15.1
+    },
+    {
+      "id": "snow-pea-2027-04-13",
+      "cropId": "snow-pea",
+      "cropName": "Snow pea",
+      "bed": 3,
+      "sowDate": "2027-04-13",
+      "transplantDate": null,
+      "harvestStart": "2027-06-27",
+      "harvestEnd": "2027-08-01",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 15.1
+    },
+    {
+      "id": "spinach-2027-04-13",
+      "cropId": "spinach",
+      "cropName": "Spinach",
+      "bed": 4,
+      "sowDate": "2027-04-13",
+      "transplantDate": null,
+      "harvestStart": "2027-06-02",
+      "harvestEnd": "2027-07-21",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 15.1
+    },
+    {
+      "id": "beetroot-2027-04-20",
+      "cropId": "beetroot",
+      "cropName": "Beetroot",
+      "bed": 3,
+      "sowDate": "2027-04-20",
+      "transplantDate": null,
+      "harvestStart": "2027-06-24",
+      "harvestEnd": "2027-07-29",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 14.6
+    },
+    {
+      "id": "carrot-2027-04-20",
+      "cropId": "carrot",
+      "cropName": "Carrot",
+      "bed": 4,
+      "sowDate": "2027-04-20",
+      "transplantDate": null,
+      "harvestStart": "2027-07-09",
+      "harvestEnd": "2027-08-13",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 14.6
+    },
+    {
+      "id": "coriander-2027-04-20",
+      "cropId": "coriander",
+      "cropName": "Coriander",
+      "bed": 2,
+      "sowDate": "2027-04-20",
+      "transplantDate": null,
+      "harvestStart": "2027-06-12",
+      "harvestEnd": "2027-07-17",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 14.6
+    },
+    {
+      "id": "spring-onion-2027-04-20",
+      "cropId": "spring-onion",
+      "cropName": "Spring onion",
+      "bed": 1,
+      "sowDate": "2027-04-20",
+      "transplantDate": null,
+      "harvestStart": "2027-06-29",
+      "harvestEnd": "2027-09-07",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 14.6
+    },
+    {
+      "id": "turnip-2027-04-20",
+      "cropId": "turnip",
+      "cropName": "Turnip",
+      "bed": 2,
+      "sowDate": "2027-04-20",
+      "transplantDate": null,
+      "harvestStart": "2027-06-12",
+      "harvestEnd": "2027-07-17",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 14.6
+    },
+    {
+      "id": "dill-2027-04-27",
+      "cropId": "dill",
+      "cropName": "Dill",
+      "bed": 3,
+      "sowDate": "2027-04-27",
+      "transplantDate": null,
+      "harvestStart": "2027-06-26",
+      "harvestEnd": "2027-08-14",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 14
+    },
+    {
+      "id": "lettuce-2027-04-27",
+      "cropId": "lettuce",
+      "cropName": "Lettuce",
+      "bed": 4,
+      "sowDate": "2027-04-27",
+      "transplantDate": null,
+      "harvestStart": "2027-06-09",
+      "harvestEnd": "2027-07-28",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 2,
+      "soilAtSowC": 14
+    },
+    {
+      "id": "pak-choi-2027-04-27",
+      "cropId": "pak-choi",
+      "cropName": "Pak choi",
+      "bed": 1,
+      "sowDate": "2027-04-27",
+      "transplantDate": null,
+      "harvestStart": "2027-06-19",
+      "harvestEnd": "2027-07-24",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 2,
+      "soilAtSowC": 14
+    },
+    {
+      "id": "pea-2027-04-27",
+      "cropId": "pea",
+      "cropName": "Pea",
+      "bed": 3,
+      "sowDate": "2027-04-27",
+      "transplantDate": null,
+      "harvestStart": "2027-07-06",
+      "harvestEnd": "2027-08-10",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 2,
+      "soilAtSowC": 14
+    },
+    {
+      "id": "radish-2027-04-27",
+      "cropId": "radish",
+      "cropName": "Radish",
+      "bed": 4,
+      "sowDate": "2027-04-27",
+      "transplantDate": null,
+      "harvestStart": "2027-05-27",
+      "harvestEnd": "2027-06-17",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 14
+    },
+    {
+      "id": "rocket-2027-04-27",
+      "cropId": "rocket",
+      "cropName": "Rocket",
+      "bed": 1,
+      "sowDate": "2027-04-27",
+      "transplantDate": null,
+      "harvestStart": "2027-06-04",
+      "harvestEnd": "2027-07-09",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 3,
+      "soilAtSowC": 14
+    },
+    {
+      "id": "silverbeet-2027-04-27",
+      "cropId": "silverbeet",
+      "cropName": "Silverbeet",
+      "bed": 2,
+      "sowDate": "2027-04-27",
+      "transplantDate": null,
+      "harvestStart": "2027-06-26",
+      "harvestEnd": "2027-09-18",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 1,
+      "soilAtSowC": 14
+    },
+    {
+      "id": "snow-pea-2027-04-27",
+      "cropId": "snow-pea",
+      "cropName": "Snow pea",
+      "bed": 3,
+      "sowDate": "2027-04-27",
+      "transplantDate": null,
+      "harvestStart": "2027-07-11",
+      "harvestEnd": "2027-08-15",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 2,
+      "soilAtSowC": 14
+    },
+    {
+      "id": "spinach-2027-04-27",
+      "cropId": "spinach",
+      "cropName": "Spinach",
+      "bed": 4,
+      "sowDate": "2027-04-27",
+      "transplantDate": null,
+      "harvestStart": "2027-06-16",
+      "harvestEnd": "2027-08-04",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 2,
+      "soilAtSowC": 14
+    },
+    {
+      "id": "beetroot-2027-05-11",
+      "cropId": "beetroot",
+      "cropName": "Beetroot",
+      "bed": 3,
+      "sowDate": "2027-05-11",
+      "transplantDate": null,
+      "harvestStart": "2027-07-15",
+      "harvestEnd": "2027-08-19",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 2,
+      "soilAtSowC": 11.5
+    },
+    {
+      "id": "carrot-2027-05-11",
+      "cropId": "carrot",
+      "cropName": "Carrot",
+      "bed": 4,
+      "sowDate": "2027-05-11",
+      "transplantDate": null,
+      "harvestStart": "2027-07-30",
+      "harvestEnd": "2027-09-03",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 2,
+      "soilAtSowC": 11.5
+    },
+    {
+      "id": "coriander-2027-05-11",
+      "cropId": "coriander",
+      "cropName": "Coriander",
+      "bed": 2,
+      "sowDate": "2027-05-11",
+      "transplantDate": null,
+      "harvestStart": "2027-07-03",
+      "harvestEnd": "2027-08-07",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 2,
+      "soilAtSowC": 11.5
+    },
+    {
+      "id": "kale-2027-05-11",
+      "cropId": "kale",
+      "cropName": "Kale",
+      "bed": 2,
+      "sowDate": "2027-05-11",
+      "transplantDate": "2027-06-08",
+      "harvestStart": "2027-08-12",
+      "harvestEnd": "2027-10-21",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 2,
+      "soilAtSowC": 11.5
+    },
+    {
+      "id": "lettuce-2027-05-11",
+      "cropId": "lettuce",
+      "cropName": "Lettuce",
+      "bed": 4,
+      "sowDate": "2027-05-11",
+      "transplantDate": null,
+      "harvestStart": "2027-06-23",
+      "harvestEnd": "2027-08-11",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 3,
+      "soilAtSowC": 11.5
+    },
+    {
+      "id": "pak-choi-2027-05-11",
+      "cropId": "pak-choi",
+      "cropName": "Pak choi",
+      "bed": 1,
+      "sowDate": "2027-05-11",
+      "transplantDate": null,
+      "harvestStart": "2027-07-03",
+      "harvestEnd": "2027-08-07",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 3,
+      "soilAtSowC": 11.5
+    },
+    {
+      "id": "radish-2027-05-11",
+      "cropId": "radish",
+      "cropName": "Radish",
+      "bed": 4,
+      "sowDate": "2027-05-11",
+      "transplantDate": null,
+      "harvestStart": "2027-06-10",
+      "harvestEnd": "2027-07-01",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 2,
+      "soilAtSowC": 11.5
+    },
+    {
+      "id": "rocket-2027-05-11",
+      "cropId": "rocket",
+      "cropName": "Rocket",
+      "bed": 1,
+      "sowDate": "2027-05-11",
+      "transplantDate": null,
+      "harvestStart": "2027-06-18",
+      "harvestEnd": "2027-07-23",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 4,
+      "soilAtSowC": 11.5
+    },
+    {
+      "id": "spinach-2027-05-11",
+      "cropId": "spinach",
+      "cropName": "Spinach",
+      "bed": 4,
+      "sowDate": "2027-05-11",
+      "transplantDate": null,
+      "harvestStart": "2027-06-30",
+      "harvestEnd": "2027-08-18",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 3,
+      "soilAtSowC": 11.5
+    },
+    {
+      "id": "spring-onion-2027-05-11",
+      "cropId": "spring-onion",
+      "cropName": "Spring onion",
+      "bed": 1,
+      "sowDate": "2027-05-11",
+      "transplantDate": null,
+      "harvestStart": "2027-07-20",
+      "harvestEnd": "2027-09-28",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 2,
+      "soilAtSowC": 11.5
+    },
+    {
+      "id": "turnip-2027-05-11",
+      "cropId": "turnip",
+      "cropName": "Turnip",
+      "bed": 2,
+      "sowDate": "2027-05-11",
+      "transplantDate": null,
+      "harvestStart": "2027-07-03",
+      "harvestEnd": "2027-08-07",
+      "seasonYear": 2026,
+      "window": "autumn",
+      "successionIndex": 2,
+      "soilAtSowC": 11.5
+    },
+    {
+      "id": "broad-bean-2027-07-28",
+      "cropId": "broad-bean",
+      "cropName": "Broad bean",
+      "bed": 1,
+      "sowDate": "2027-07-28",
+      "transplantDate": null,
+      "harvestStart": "2027-11-10",
+      "harvestEnd": "2027-12-29",
+      "seasonYear": 2027,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 7
+    },
+    {
+      "id": "kale-2027-07-28",
+      "cropId": "kale",
+      "cropName": "Kale",
+      "bed": 2,
+      "sowDate": "2027-07-28",
+      "transplantDate": "2027-08-25",
+      "harvestStart": "2027-10-29",
+      "harvestEnd": "2028-01-07",
+      "seasonYear": 2027,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 7
+    },
+    {
+      "id": "brussels-sprouts-2027-08-11",
+      "cropId": "brussels-sprouts",
+      "cropName": "Brussels sprouts",
+      "bed": 2,
+      "sowDate": "2027-08-11",
+      "transplantDate": "2027-09-08",
+      "harvestStart": "2027-12-22",
+      "harvestEnd": "2028-03-01",
+      "seasonYear": 2027,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 7.4
+    },
+    {
+      "id": "cabbage-2027-08-11",
+      "cropId": "cabbage",
+      "cropName": "Cabbage",
+      "bed": 3,
+      "sowDate": "2027-08-11",
+      "transplantDate": "2027-09-08",
+      "harvestStart": "2027-12-12",
+      "harvestEnd": "2028-02-20",
+      "seasonYear": 2027,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 7.4
+    },
+    {
+      "id": "pea-2027-08-11",
+      "cropId": "pea",
+      "cropName": "Pea",
+      "bed": 3,
+      "sowDate": "2027-08-11",
+      "transplantDate": null,
+      "harvestStart": "2027-10-20",
+      "harvestEnd": "2027-11-24",
+      "seasonYear": 2027,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 7.4
+    },
+    {
+      "id": "rocket-2027-08-11",
+      "cropId": "rocket",
+      "cropName": "Rocket",
+      "bed": 1,
+      "sowDate": "2027-08-11",
+      "transplantDate": null,
+      "harvestStart": "2027-09-18",
+      "harvestEnd": "2027-10-23",
+      "seasonYear": 2027,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 7.4
+    },
+    {
+      "id": "snow-pea-2027-08-11",
+      "cropId": "snow-pea",
+      "cropName": "Snow pea",
+      "bed": 3,
+      "sowDate": "2027-08-11",
+      "transplantDate": null,
+      "harvestStart": "2027-10-25",
+      "harvestEnd": "2027-11-29",
+      "seasonYear": 2027,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 7.4
+    },
+    {
+      "id": "spinach-2027-08-11",
+      "cropId": "spinach",
+      "cropName": "Spinach",
+      "bed": 4,
+      "sowDate": "2027-08-11",
+      "transplantDate": null,
+      "harvestStart": "2027-09-30",
+      "harvestEnd": "2027-11-18",
+      "seasonYear": 2027,
+      "window": "spring",
+      "successionIndex": 0,
+      "soilAtSowC": 7.4
+    }
+  ],
+  "skipped": [
+    {
+      "cropId": "tomato",
+      "cropName": "Tomato",
+      "sowDate": "2026-08-18",
+      "reason": "No week in this window reached 15 °C. The first check was 8.9 °C.",
+      "soilC": 8.9,
+      "minSoilC": 15
+    },
+    {
+      "cropId": "tomato",
+      "cropName": "Tomato",
+      "sowDate": "2027-08-11",
+      "reason": "No week in this window reached 15 °C. The first check was 7.4 °C.",
+      "soilC": 7.4,
+      "minSoilC": 15
+    },
+    {
+      "cropId": "cherry-tomato",
+      "cropName": "Cherry tomato",
+      "sowDate": "2026-08-18",
+      "reason": "No week in this window reached 15 °C. The first check was 8.9 °C.",
+      "soilC": 8.9,
+      "minSoilC": 15
+    },
+    {
+      "cropId": "cherry-tomato",
+      "cropName": "Cherry tomato",
+      "sowDate": "2027-08-11",
+      "reason": "No week in this window reached 15 °C. The first check was 7.4 °C.",
+      "soilC": 7.4,
+      "minSoilC": 15
+    },
+    {
+      "cropId": "cucumber",
+      "cropName": "Cucumber",
+      "sowDate": "2026-10-06",
+      "reason": "No week in this window reached 15 °C. The first check was 14.5 °C.",
+      "soilC": 14.5,
+      "minSoilC": 15
+    },
+    {
+      "cropId": "pumpkin",
+      "cropName": "Pumpkin",
+      "sowDate": "2026-10-06",
+      "reason": "No week in this window reached 15 °C. The first check was 14.5 °C.",
+      "soilC": 14.5,
+      "minSoilC": 15
+    },
+    {
+      "cropId": "basil",
+      "cropName": "Basil",
+      "sowDate": "2026-10-20",
+      "reason": "Soil at 6 cm is 14.5 °C. The crop needs 15 °C.",
+      "soilC": 14.5,
+      "minSoilC": 15
+    },
+    {
+      "cropId": "sweet-potato",
+      "cropName": "Sweet potato",
+      "sowDate": "2026-10-20",
+      "reason": "No week in this window reached 18 °C. The first check was 14.5 °C.",
+      "soilC": 14.5,
+      "minSoilC": 18
+    },
+    {
+      "cropId": "sweet-pepper",
+      "cropName": "Sweet pepper",
+      "sowDate": "2026-10-20",
+      "reason": "No week in this window reached 18 °C. The first check was 14.5 °C.",
+      "soilC": 14.5,
+      "minSoilC": 18
+    },
+    {
+      "cropId": "chilli",
+      "cropName": "Chilli",
+      "sowDate": "2026-10-20",
+      "reason": "No week in this window reached 18 °C. The first check was 14.5 °C.",
+      "soilC": 14.5,
+      "minSoilC": 18
+    },
+    {
+      "cropId": "eggplant",
+      "cropName": "Eggplant",
+      "sowDate": "2026-10-20",
+      "reason": "No week in this window reached 18 °C. The first check was 14.5 °C.",
+      "soilC": 14.5,
+      "minSoilC": 18
+    }
+  ],
+  "weeks": [
+    {
+      "index": 0,
+      "start": "2026-08-15",
+      "end": "2026-08-21",
+      "monthLabel": "Aug 2026",
+      "sow": [],
+      "transplant": [],
+      "harvest": []
+    },
+    {
+      "index": 1,
+      "start": "2026-08-22",
+      "end": "2026-08-28",
+      "monthLabel": "Aug 2026",
+      "sow": [
+        "Lettuce",
+        "Radish"
+      ],
+      "transplant": [],
+      "harvest": []
+    },
+    {
+      "index": 2,
+      "start": "2026-08-29",
+      "end": "2026-09-04",
+      "monthLabel": "Aug 2026",
+      "sow": [],
+      "transplant": [],
+      "harvest": []
+    },
+    {
+      "index": 3,
+      "start": "2026-09-05",
+      "end": "2026-09-11",
+      "monthLabel": "Sept 2026",
+      "sow": [
+        "Carrot",
+        "Lettuce",
+        "Radish"
+      ],
+      "transplant": [],
+      "harvest": []
+    },
+    {
+      "index": 4,
+      "start": "2026-09-12",
+      "end": "2026-09-18",
+      "monthLabel": "Sept 2026",
+      "sow": [],
+      "transplant": [],
+      "harvest": []
+    },
+    {
+      "index": 5,
+      "start": "2026-09-19",
+      "end": "2026-09-25",
+      "monthLabel": "Sept 2026",
+      "sow": [
+        "Lettuce",
+        "Radish"
+      ],
+      "transplant": [],
+      "harvest": [
+        "Radish"
+      ]
+    },
+    {
+      "index": 6,
+      "start": "2026-09-26",
+      "end": "2026-10-02",
+      "monthLabel": "Sept 2026",
+      "sow": [
+        "Carrot"
+      ],
+      "transplant": [],
+      "harvest": [
+        "Radish"
+      ]
+    },
+    {
+      "index": 7,
+      "start": "2026-10-03",
+      "end": "2026-10-09",
+      "monthLabel": "Oct 2026",
+      "sow": [
+        "Lettuce",
+        "Radish"
+      ],
+      "transplant": [],
+      "harvest": [
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 8,
+      "start": "2026-10-10",
+      "end": "2026-10-16",
+      "monthLabel": "Oct 2026",
+      "sow": [
+        "Tomato"
+      ],
+      "transplant": [],
+      "harvest": [
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 9,
+      "start": "2026-10-17",
+      "end": "2026-10-23",
+      "monthLabel": "Oct 2026",
+      "sow": [
+        "Carrot",
+        "Lettuce",
+        "Radish"
+      ],
+      "transplant": [],
+      "harvest": [
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 10,
+      "start": "2026-10-24",
+      "end": "2026-10-30",
+      "monthLabel": "Oct 2026",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 11,
+      "start": "2026-10-31",
+      "end": "2026-11-06",
+      "monthLabel": "Oct 2026",
+      "sow": [
+        "Lettuce",
+        "Radish"
+      ],
+      "transplant": [],
+      "harvest": [
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 12,
+      "start": "2026-11-07",
+      "end": "2026-11-13",
+      "monthLabel": "Nov 2026",
+      "sow": [
+        "Carrot"
+      ],
+      "transplant": [
+        "Tomato"
+      ],
+      "harvest": [
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 13,
+      "start": "2026-11-14",
+      "end": "2026-11-20",
+      "monthLabel": "Nov 2026",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 14,
+      "start": "2026-11-21",
+      "end": "2026-11-27",
+      "monthLabel": "Nov 2026",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Lettuce",
+        "Carrot",
+        "Radish"
+      ]
+    },
+    {
+      "index": 15,
+      "start": "2026-11-28",
+      "end": "2026-12-04",
+      "monthLabel": "Nov 2026",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 16,
+      "start": "2026-12-05",
+      "end": "2026-12-11",
+      "monthLabel": "Dec 2026",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 17,
+      "start": "2026-12-12",
+      "end": "2026-12-18",
+      "monthLabel": "Dec 2026",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 18,
+      "start": "2026-12-19",
+      "end": "2026-12-25",
+      "monthLabel": "Dec 2026",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 19,
+      "start": "2026-12-26",
+      "end": "2027-01-01",
+      "monthLabel": "Dec 2026",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce"
+      ]
+    },
+    {
+      "index": 20,
+      "start": "2027-01-02",
+      "end": "2027-01-08",
+      "monthLabel": "Jan 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce"
+      ]
+    },
+    {
+      "index": 21,
+      "start": "2027-01-09",
+      "end": "2027-01-15",
+      "monthLabel": "Jan 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce"
+      ]
+    },
+    {
+      "index": 22,
+      "start": "2027-01-16",
+      "end": "2027-01-22",
+      "monthLabel": "Jan 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Tomato",
+        "Lettuce"
+      ]
+    },
+    {
+      "index": 23,
+      "start": "2027-01-23",
+      "end": "2027-01-29",
+      "monthLabel": "Jan 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Tomato",
+        "Carrot",
+        "Lettuce"
+      ]
+    },
+    {
+      "index": 24,
+      "start": "2027-01-30",
+      "end": "2027-02-05",
+      "monthLabel": "Jan 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Tomato",
+        "Carrot",
+        "Lettuce"
+      ]
+    },
+    {
+      "index": 25,
+      "start": "2027-02-06",
+      "end": "2027-02-12",
+      "monthLabel": "Feb 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Tomato",
+        "Carrot"
+      ]
+    },
+    {
+      "index": 26,
+      "start": "2027-02-13",
+      "end": "2027-02-19",
+      "monthLabel": "Feb 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Tomato",
+        "Carrot"
+      ]
+    },
+    {
+      "index": 27,
+      "start": "2027-02-20",
+      "end": "2027-02-26",
+      "monthLabel": "Feb 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Tomato",
+        "Carrot"
+      ]
+    },
+    {
+      "index": 28,
+      "start": "2027-02-27",
+      "end": "2027-03-05",
+      "monthLabel": "Feb 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Tomato",
+        "Carrot"
+      ]
+    },
+    {
+      "index": 29,
+      "start": "2027-03-06",
+      "end": "2027-03-12",
+      "monthLabel": "Mar 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Tomato"
+      ]
+    },
+    {
+      "index": 30,
+      "start": "2027-03-13",
+      "end": "2027-03-19",
+      "monthLabel": "Mar 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Tomato"
+      ]
+    },
+    {
+      "index": 31,
+      "start": "2027-03-20",
+      "end": "2027-03-26",
+      "monthLabel": "Mar 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Tomato"
+      ]
+    },
+    {
+      "index": 32,
+      "start": "2027-03-27",
+      "end": "2027-04-02",
+      "monthLabel": "Mar 2027",
+      "sow": [
+        "Carrot",
+        "Lettuce"
+      ],
+      "transplant": [],
+      "harvest": [
+        "Tomato"
+      ]
+    },
+    {
+      "index": 33,
+      "start": "2027-04-03",
+      "end": "2027-04-09",
+      "monthLabel": "Apr 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Tomato"
+      ]
+    },
+    {
+      "index": 34,
+      "start": "2027-04-10",
+      "end": "2027-04-16",
+      "monthLabel": "Apr 2027",
+      "sow": [
+        "Lettuce",
+        "Radish"
+      ],
+      "transplant": [],
+      "harvest": [
+        "Tomato"
+      ]
+    },
+    {
+      "index": 35,
+      "start": "2027-04-17",
+      "end": "2027-04-23",
+      "monthLabel": "Apr 2027",
+      "sow": [
+        "Carrot"
+      ],
+      "transplant": [],
+      "harvest": []
+    },
+    {
+      "index": 36,
+      "start": "2027-04-24",
+      "end": "2027-04-30",
+      "monthLabel": "Apr 2027",
+      "sow": [
+        "Lettuce",
+        "Radish"
+      ],
+      "transplant": [],
+      "harvest": []
+    },
+    {
+      "index": 37,
+      "start": "2027-05-01",
+      "end": "2027-05-07",
+      "monthLabel": "May 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": []
+    },
+    {
+      "index": 38,
+      "start": "2027-05-08",
+      "end": "2027-05-14",
+      "monthLabel": "May 2027",
+      "sow": [
+        "Carrot",
+        "Lettuce",
+        "Radish"
+      ],
+      "transplant": [],
+      "harvest": [
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 39,
+      "start": "2027-05-15",
+      "end": "2027-05-21",
+      "monthLabel": "May 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 40,
+      "start": "2027-05-22",
+      "end": "2027-05-28",
+      "monthLabel": "May 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 41,
+      "start": "2027-05-29",
+      "end": "2027-06-04",
+      "monthLabel": "May 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 42,
+      "start": "2027-06-05",
+      "end": "2027-06-11",
+      "monthLabel": "June 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 43,
+      "start": "2027-06-12",
+      "end": "2027-06-18",
+      "monthLabel": "June 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 44,
+      "start": "2027-06-19",
+      "end": "2027-06-25",
+      "monthLabel": "June 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 45,
+      "start": "2027-06-26",
+      "end": "2027-07-02",
+      "monthLabel": "June 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce",
+        "Radish"
+      ]
+    },
+    {
+      "index": 46,
+      "start": "2027-07-03",
+      "end": "2027-07-09",
+      "monthLabel": "July 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce"
+      ]
+    },
+    {
+      "index": 47,
+      "start": "2027-07-10",
+      "end": "2027-07-16",
+      "monthLabel": "July 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce"
+      ]
+    },
+    {
+      "index": 48,
+      "start": "2027-07-17",
+      "end": "2027-07-23",
+      "monthLabel": "July 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce"
+      ]
+    },
+    {
+      "index": 49,
+      "start": "2027-07-24",
+      "end": "2027-07-30",
+      "monthLabel": "July 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce"
+      ]
+    },
+    {
+      "index": 50,
+      "start": "2027-07-31",
+      "end": "2027-08-06",
+      "monthLabel": "July 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce"
+      ]
+    },
+    {
+      "index": 51,
+      "start": "2027-08-07",
+      "end": "2027-08-13",
+      "monthLabel": "Aug 2027",
+      "sow": [],
+      "transplant": [],
+      "harvest": [
+        "Carrot",
+        "Lettuce"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "startWeek": 35,
+      "endWeek": 37,
+      "startDate": "2027-04-17",
+      "endDate": "2027-05-07",
+      "weeks": 3,
+      "message": "No harvest from 17 Apr 2027 to 7 May 2027 (3 weeks)."
+    }
+  ],
+  "suggestions": [
+    {
+      "gapStartWeek": 35,
+      "cropId": "rocket",
+      "name": "Rocket",
+      "sowBy": "2027-03-16",
+      "harvestFrom": "2027-04-23",
+      "note": "Cut and come again. Best in cool weather."
+    },
+    {
+      "gapStartWeek": 35,
+      "cropId": "basil",
+      "name": "Basil",
+      "sowBy": "2026-11-17",
+      "harvestFrom": "2027-02-23",
+      "note": "Pinch the tips. Avoid cold nights."
+    },
+    {
+      "gapStartWeek": 35,
+      "cropId": "chilli",
+      "name": "Chilli",
+      "sowBy": "2026-12-01",
+      "harvestFrom": "2027-04-03",
+      "note": "Pots work well. Move under cover in cold."
+    }
+  ],
+  "warnings": [
+    {
+      "code": "cold-soil-sowings",
+      "message": "11 sowings were skipped because the soil was too cold."
+    }
+  ]
+}
